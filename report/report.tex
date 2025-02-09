@@ -44,6 +44,7 @@ Human communication is inherently complex, and we frequently use language in ind
 
 While the task of understanding emotions expressed in texts can be framed as a multi-label classification problem, where multiple emotions might be present simultaneously, the real difficulty lies in the subtle difference between the sentiment expressed in the text itself and the actual emotion being felt by the speaker. Words may express one emotion, but the tone of voice or context might express another. To attempt to aid humans in sentiment detection in texts, we fine-tune the \textit{large language model} (LLM) BERT, in particular, BERT-large to classify text snippets by emotions: \textit{joy, sadness, fear, anger,} and \textit{surprise}. In section 2, we will mention the different models involved in our experiments. In section 3, we describe in detail the different models and the training parameters we experimented on. Next, in section 4, we evaluate the results produced by different models and the effects of the parameters described in the previous section, judging by the \textit{F-score}. After that, we will discuss what other methods can potentially be applied to further improve the score and fine-tune the model more efficiently for the \textit{multi-label text classification task}.
 
+Our project can be accessed via this \href{https://github.com/KomaR1/TUD_SemEval_a/tree/main}{Link.}
 
 \section{Methodology}
 In this section, we will describe the fine-tuning process, technology and necessary components used during the process.
